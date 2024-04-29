@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 export default function HeroGrid() {
   return (
-    <section className="page-width">
+    <section className="page-width py-11">
       <div className="text-center max-w-[81%] m-auto mb-20">
         <h1 className=" mb-6">Design solutions made easy</h1>
         <p className="m-auto text-custom-gray mx-32">
@@ -49,7 +49,7 @@ export default function HeroGrid() {
             height={64}
             className='justify-self-end'
           />
-          <p className="grid-title">Photography</p>
+          <p className="grid-title self-end">Photography</p>
         </div>
         <div className="grid bg-custom-pink border col-span-2 rounded-lg p-6">
           <Image

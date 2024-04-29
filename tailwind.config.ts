@@ -1,10 +1,10 @@
-import type { Config } from "tailwindcss";
+import type { Config } from 'tailwindcss'
 
 const config: Config = {
   content: [
-    "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+    './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
+    './src/components/**/*.{js,ts,jsx,tsx,mdx}',
+    './src/app/**/*.{js,ts,jsx,tsx,mdx}'
   ],
   theme: {
     extend: {
@@ -18,11 +18,11 @@ const config: Config = {
           darkPurple: '#552049',
           black: '#030303',
           gray: '#7A746E',
-          white: '#FFF7F0',  
-        },
-      },
-    },
+          white: '#FFF7F0'
+        }
+      }
+    }
   },
-  plugins: [],
-};
-export default config;
+  plugins: [require('daisyui')]
+}
+export default config

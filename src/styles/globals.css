@@ -7,23 +7,34 @@
     font-size: 56px;
     font-weight: bold;
     line-height: 70px;
+    color: black;
   }
   h2 {
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 51px;
+    color: black;
   }
   h3 {
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 40px;
+    color: black;
   }
 
-  .grid-title{
+  .grid-title {
     font-size: 24px;
     font-weight: bold;
     color: white;
-
   }
 }
 
 @layer components {
   .btn {
-    @apply bg-custom-black hover:bg-custom-purple text-white font-bold px-11 py-3 rounded-full h-14 inline-block leading-8 text-base;
+    @apply bg-custom-black hover:bg-custom-purple text-white font-bold px-11 py-3 rounded-full h-14 inline-block leading-8 text-base ;
+  }
+  .btn-primary {
+    @apply bg-custom-pink hover:bg-custom-red text-white font-bold px-11 py-3 rounded-full h-14 inline-block leading-8 text-base border-none;
   }
 }
 
